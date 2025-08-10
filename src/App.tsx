@@ -3,9 +3,9 @@ import { Input } from "./Input";
 import { TipSelector } from "./TipSelector";
 import { Output } from "./Output";
 import { useState } from "react";
-import splitterLogoPath from "@/assets/logo.svg";
-import personIconPath from "@/assets/icon-person.svg";
-import dollarIconPath from "@/assets/icon-dollar.svg";
+import splitterLogoPath from "./assets/logo.svg";
+import personIconPath from "./assets/icon-person.svg";
+import dollarIconPath from "./assets/icon-dollar.svg";
 
 const App = () => {
   const [billAmount, setBillAmount] = useState(0);
