@@ -10,8 +10,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/siyam-eng/tip-calculator-react)
-- Live Site URL: [Add live site URL here](https://siyam-eng.github.io/tip-calculator-react)
+- Solution URL: [Github](https://github.com/siyam-eng/tip-calculator-react)
+- Live Site URL: [Github Pages](https://siyam-eng.github.io/tip-calculator-react)
 
 ## My process
 
