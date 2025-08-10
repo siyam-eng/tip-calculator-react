@@ -3,6 +3,9 @@ import { Input } from "./Input";
 import { TipSelector } from "./TipSelector";
 import { Output } from "./Output";
 import { useState } from "react";
+import splitterLogoPath from "@/assets/logo.svg";
+import personIconPath from "@/assets/icon-person.svg";
+import dollarIconPath from "@/assets/icon-dollar.svg";
 
 const App = () => {
   const [billAmount, setBillAmount] = useState(0);
@@ -18,10 +21,6 @@ const App = () => {
       ? (billAmount + totalTip) / numberOfPeople
       : 0;
 
-  // icon paths
-  const dollarIconPath = "src/assets/icon-dollar.svg";
-  const personIconPath = "src/assets/icon-person.svg";
-
   function resetStates() {
     // set the value of the states to their initial values
     setBillAmount(0);
@@ -31,7 +30,7 @@ const App = () => {
   return (
     <div className="font-space-mono grid font-bold">
       <img
-        src="src/assets/logo.svg"
+        src={splitterLogoPath}
         alt="Splitter Logo"
         className="my-4 place-self-center"
       />
